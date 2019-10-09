@@ -1,11 +1,11 @@
 {
   "extends": "eslint:recommended",
   "parserOptions": {
+    "globalReturn": true,
     "ecmaVersion": 9,
     "ecmaFeatures": {
       "impliedStrict": true
     },
-    "sourceType": "module"
   },
   "env": {
     "node": true,

@@ -1,0 +1,24 @@
+{
+  "name": "CLI-APP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patHaynes-401-advanced-javascript/CLI-APP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patHaynes-401-advanced-javascript/CLI-APP/issues"
+  },
+  "homepage": "https://github.com/patHaynes-401-advanced-javascript/CLI-APP#readme"
+}

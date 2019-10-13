@@ -6,13 +6,19 @@ io.on('connection', socket => {
     console.log(data);
     socket.broadcast.emit('file-read', data);
   });
+
   socket.on('file-write', data => {
     console.log(data);
     socket.broadcast.emit('file-write', data);
   });
+
   socket.on('file-saved', data => {
     console.log(data);
     socket.broadcast.emit('file-saved', data);
+  });
+
+  socket.on('file-error', error => {
+    console.log(error);
   });
 
 });

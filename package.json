@@ -1,25 +1,25 @@
 {
-  "name": "CLI-APP",
+  "name": "cli-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "jest": "^24.9.0",
-    "socket.io": "^2.3.0"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/patHaynes-401-advanced-javascript/CLI-APP.git"
+    "jest": "jest --runInBand --verbose",
+    "test": "npm run jest",
+    "test:coverage": "npm run test -- --coverage",
+    "test:watch": "npm run jest -- --watchAll",
+    "test:verbose": "npm run test -- --verbose"
   },
   "keywords": [],
-  "author": "",
+  "author": "Pat Haynes",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/patHaynes-401-advanced-javascript/CLI-APP/issues"
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "util": "^0.12.1"
   },
-  "homepage": "https://github.com/patHaynes-401-advanced-javascript/CLI-APP#readme"
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }

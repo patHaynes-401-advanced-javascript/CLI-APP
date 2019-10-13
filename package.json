@@ -9,7 +9,11 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "jest": "jest --runInBand --verbose",
+    "test": "npm run jest",
+    "test:coverage": "npm run test -- --coverage",
+    "test:watch": "npm run jest -- --watchAll",
+    "test:verbose": "npm run test -- --verbose"
   },
   "repository": {
     "type": "git",
